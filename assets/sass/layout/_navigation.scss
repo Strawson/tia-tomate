@@ -1,3 +1,11 @@
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    scroll-snap-type: y mandatory;
+}
+
 nav{
     background-color: $white;
     height: 117px;

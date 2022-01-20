@@ -45,6 +45,76 @@ input {
   border-radius: 0;
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.hero p {
+  color: #fff;
+  font-size: 100px;
+}
+.hero strong {
+  font-weight: 700;
+}
+
+.about-1 {
+  color: #fff;
+}
+.about-1 h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 49px;
+}
+.about-1 p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-2 h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 49px;
+}
+.about-2 p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-3 {
+  color: #686963;
+}
+.about-3 h2 {
+  color: white;
+  font-size: 100px;
+  background-color: #E56353;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-bottom: 50px;
+}
+.about-3 h3 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 49px;
+}
+.about-3 p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 45px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-snap-type: y mandatory;
+}
+
 nav {
   background-color: #fff;
   height: 117px;
@@ -74,27 +144,31 @@ footer img {
   display: flex;
   align-items: center;
   justify-content: center;
+  scroll-snap-align: start;
 }
 .hero p {
   text-align: center;
 }
 
 .about-1 {
-  background-color: #686963;
+  background-color: #91918D;
+  height: 100vh;
+  scroll-snap-align: start;
 }
 .about-1__container__text {
-  width: 821px;
+  max-width: 821px;
   margin-left: auto;
   margin-right: auto;
 }
 .about-1__container {
   position: relative;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .about-1__container img {
-  width: 1400px;
-  height: 570px;
+  width: 100%;
+  max-width: 1400px;
+  max-height: 570px;
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -105,10 +179,12 @@ footer img {
 }
 
 .about-2 {
+  scroll-snap-align: start;
   background-color: #fff;
+  height: 100vh;
 }
 .about-2__container__text {
-  width: 821px;
+  max-width: 821px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -119,14 +195,30 @@ footer img {
 }
 .about-2__container img {
   object-fit: cover;
-  width: 1400px;
-  height: 570px;
+  width: 100%;
+  max-width: 1400px;
+  max-height: 570px;
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 .about-2__container p {
   display: block;
+}
+
+.about-3 {
+  scroll-snap-align: start;
+}
+.about-3 img {
+  max-width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.about-3 p {
+  max-width: 821px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
