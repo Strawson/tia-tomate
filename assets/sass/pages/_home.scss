@@ -85,3 +85,21 @@
         margin-right: auto;
     }
 }
+.wholesaler{
+    color: white;
+    font-size: $font-size-large;
+    background-color: $jean-bean;
+    font-weight: $raleway-bold;
+    text-align: center;
+    padding: 60px;
+    a {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: $granite-gray;
+        display: inline-block;
+        background-color: $white;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding: 14px 99px;
+    }
+}
