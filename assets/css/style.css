@@ -1,0 +1,132 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+nav {
+  background-color: #fff;
+  height: 117px;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+nav img {
+  height: 80px;
+}
+
+footer {
+  background-color: #686963;
+  height: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer img {
+  height: 128px;
+}
+
+.hero {
+  height: calc(100vh - 117px);
+  background-color: #E56353;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero p {
+  text-align: center;
+}
+
+.about-1 {
+  background-color: #686963;
+}
+.about-1__container__text {
+  width: 821px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-1__container {
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.about-1__container img {
+  width: 1400px;
+  height: 570px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  object-fit: cover;
+}
+.about-1__container p {
+  display: block;
+}
+
+.about-2 {
+  background-color: #fff;
+}
+.about-2__container__text {
+  width: 821px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-2__container {
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.about-2__container img {
+  object-fit: cover;
+  width: 1400px;
+  height: 570px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about-2__container p {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
